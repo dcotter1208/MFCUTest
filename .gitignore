@@ -16,10 +16,14 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+.DS_Store
+*.DS_Store
+*/.DS_Store
 
 ## Other
 *.moved-aside
 *.xcuserstate
+xcuserdata/
 
 ## Obj-C/Swift specific
 *.hmap
@@ -37,13 +41,17 @@ playground.xcworkspace
 # Packages/
 .build/
 
+# plists
+MapApp/GoogleService-Info.plist
+MapApp/Keys.plist
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 
 # Carthage
 #

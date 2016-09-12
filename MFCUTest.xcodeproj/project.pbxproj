@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		647106631D82FF8500975FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647106621D82FF8500975FCA /* AppDelegate.swift */; };
-		647106651D82FF8500975FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647106641D82FF8500975FCA /* ViewController.swift */; };
 		647106681D82FF8500975FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647106661D82FF8500975FCA /* Main.storyboard */; };
 		6471066A1D82FF8500975FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647106691D82FF8500975FCA /* Assets.xcassets */; };
 		6471066D1D82FF8500975FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6471066B1D82FF8500975FCA /* LaunchScreen.storyboard */; };
+		647106771D8300A400975FCA /* CULocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647106761D8300A400975FCA /* CULocationViewController.swift */; };
+		647106791D83081700975FCA /* MFCULocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647106781D83081700975FCA /* MFCULocation.swift */; };
+		6471067D1D8308E300975FCA /* CUBranchLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471067C1D8308E300975FCA /* CUBranchLocationCell.swift */; };
+		648D8CE31D8314A300FBBCE7 /* MFCUAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648D8CE21D8314A300FBBCE7 /* MFCUAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6471065F1D82FF8500975FCA /* MFCUTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFCUTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647106621D82FF8500975FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		647106641D82FF8500975FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		647106671D82FF8500975FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		647106691D82FF8500975FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6471066C1D82FF8500975FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6471066E1D82FF8500975FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647106761D8300A400975FCA /* CULocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CULocationViewController.swift; sourceTree = "<group>"; };
+		647106781D83081700975FCA /* MFCULocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFCULocation.swift; sourceTree = "<group>"; };
+		6471067C1D8308E300975FCA /* CUBranchLocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUBranchLocationCell.swift; sourceTree = "<group>"; };
+		648D8CE21D8314A300FBBCE7 /* MFCUAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFCUAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				647106621D82FF8500975FCA /* AppDelegate.swift */,
-				647106641D82FF8500975FCA /* ViewController.swift */,
+				647106761D8300A400975FCA /* CULocationViewController.swift */,
+				647106781D83081700975FCA /* MFCULocation.swift */,
+				6471067C1D8308E300975FCA /* CUBranchLocationCell.swift */,
+				648D8CE21D8314A300FBBCE7 /* MFCUAnnotation.swift */,
 				647106661D82FF8500975FCA /* Main.storyboard */,
 				647106691D82FF8500975FCA /* Assets.xcassets */,
 				6471066B1D82FF8500975FCA /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647106651D82FF8500975FCA /* ViewController.swift in Sources */,
+				6471067D1D8308E300975FCA /* CUBranchLocationCell.swift in Sources */,
 				647106631D82FF8500975FCA /* AppDelegate.swift in Sources */,
+				648D8CE31D8314A300FBBCE7 /* MFCUAnnotation.swift in Sources */,
+				647106771D8300A400975FCA /* CULocationViewController.swift in Sources */,
+				647106791D83081700975FCA /* MFCULocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				647106731D82FF8500975FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
